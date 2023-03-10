@@ -1,4 +1,4 @@
-module "ecs" {
+module "cluster" {
   source = "terraform-aws-modules/ecs/aws"
 
   cluster_name = local.resource_id
